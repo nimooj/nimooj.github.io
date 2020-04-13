@@ -1,0 +1,21 @@
+---
+---
+
+.content-container {
+  h3.content-heading {
+   position: relative; 
+   padding-bottom: .1rem;
+  }
+  h3.content-heading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 4rem;
+    border-bottom: .2rem solid #f5245f;
+  }
+
+  .content-content {
+
+  }
+}

@@ -1,0 +1,45 @@
+---
+---
+@import 'bootstrap/bootstrap';
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #16171D;
+  color: white;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: #7532a8;
+  }
+
+  .container {
+    min-height: inherit;
+    padding: 1rem 3rem;
+
+    .nav {
+      height: 4rem;
+      background-color: rgba(22, 23, 29, 0.7);
+    }
+
+
+    .main-container {
+          
+    }
+
+
+    footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+
+      width: 100%;
+
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+  }
+};
