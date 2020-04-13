@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Nimooj
+title: Home
 ---
 
+<link rel="stylesheet" href="/assets/css/carousel.css">
 <link rel="stylesheet" href="/assets/css/index.css">
 
 {% include carousel.html %}
@@ -12,5 +13,15 @@ title: Nimooj
 		Laura Kwon
 	</h3>
 	<div class="content-content">
+    Content here.
+	</div>
+</div>
+
+<div class="content-container">
+	<h3 class="content-heading">
+    Partners
+	</h3>
+	<div class="content-content">
+    Content here.
 	</div>
 </div>

@@ -3,7 +3,17 @@
 
 .carousel-inner {
   margin-bottom: 1rem;
-  img {
+  position: relative;
+
+  i.fas.fa-spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .carousel-item { 
     height: 400px;
-  };
+  }
+  
 };
